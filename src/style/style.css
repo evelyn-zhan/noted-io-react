@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+:root {
+    --first-blue: #00A5C7;
+    --second-blue: #42C3E2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+.header {
+    padding: 2rem 3.6rem;
+
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--first-blue);
+}
+
+.header__text {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.header__text-highlight {
+    font-weight: 700;
+    color: var(--first-blue);
+}
+
+.app-content {
+    padding: .5rem 3.5rem 3rem 3.5rem;
+
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 4.5rem;
+}
+
+.all-notes {
+    width: 100%;
+
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 2.5rem;
+}
+
+.line {
+    width: 100%;
+    height: .1rem;
+    background-color: var(--first-blue);
+}
+
+.add-note {
+    width: 60%;
+
+    align-self: center;
+
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1.8rem;
+}
+
+.add-note__title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    font-weight: 700;
+}
+
+.add-note__form {
+    width: 100%;
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 1rem;
+}
+
+.add-note__form-input {
+    width: 100%;
+
+    padding: .5rem .8rem;
+
+    border: solid .15rem var(--first-blue);
+    border-radius: .5rem;
+}
+
+.add-note__form-input:focus {
+    outline-color: var(--first-blue);
+}
+
+.add-note__note-title {
+    width: 100%;
+
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.add-note__note-content {
+    width: 100%;
+
+    resize: none;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.add-note__submit-button {
+    cursor: pointer;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+
+    background-color: var(--first-blue);
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+
+    transition: box-shadow .3s;
+}
+
+.add-note__submit-button:hover {
+    box-shadow: .2rem .2rem .5rem #a9a9a9;
+}
+
+.input-title {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: .2rem;
+}
+
+.title-limit {
+    align-self: flex-end;
+    font-weight: 700;
+}
+
+.search-note {
+    width: 100%;
+
+    padding: .5rem .8rem;
+    
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: solid .15rem var(--first-blue);
+    border-radius: .5rem;
+}
+
+.search-note:focus {
+    outline-color: var(--first-blue);
+}
+
+.notes-list {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1.8rem;
+}
+
+.notes-list__title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    font-weight: 700;
+}
+
+.notes-list__empty {
+    font-size: 1.2rem;
+}
+
+.notes-list__items {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 2rem 1.2rem;
+}
+
+.note-item {
+    width: 260px;
+
+    display: flex;
+    flex-flow: column nowrap;
+
+    border: solid 2px var(--second-blue);
+}
+
+.note-item__title {
+    padding: .6rem 1.2rem;
+
+    background-color: var(--second-blue);
+    font-weight: 700;
+}
+
+.note-item__date {
+    padding: 1rem 1.2rem;
+
+    font-size: .9rem;
+}
+
+.note-item__content {
+    height: 100%;
+    
+    padding: 0 1.2rem 1.4rem 1.2rem;
+
+    word-wrap: break-word;
+    white-space: pre-wrap;
+
+    font-weight: 600;
+}
+
+.note-item__buttons {
+    padding: 0 .5rem .5rem .5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.note-item__button {
+    width: 100%;
+
+    padding: .2rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .3rem;
+
+    cursor: pointer;
+
+    font-size: .9rem;
+    font-weight: 700;
+    background-color: white;
+    border: solid 2px var(--second-blue);
+    border-radius: .3rem;
+
+    transition: box-shadow .3s;
+}
+
+.note-item__button:hover {
+    box-shadow: 2px 2px .4rem var(--second-blue);
+}
+
+@media screen and (max-width: 1000px) {
+    .header {
+        padding: 1.5rem 1.2rem;
+    }
+
+    .app-content {
+        padding: .5rem 1.2rem 1.2rem 1.2rem;
+    }
+
+    .add-note {
+        width: 100%;
+    }
+}
