@@ -23,8 +23,8 @@ class NotesApp extends React.Component {
         this.onDeleteNoteHandler = this.onDeleteNoteHandler.bind(this)
     }
 
-    onAddNoteHandler({ title, content }) {
-        if(title === '' || content === '') {
+    onAddNoteHandler({ title, body }) {
+        if(title === '' || body === '') {
             alert('⚠️  Your Note Title or Note Content may not be empty!')
         } else {
             this.setState((prevState) => {
@@ -33,7 +33,7 @@ class NotesApp extends React.Component {
                         {
                             id: +new Date(),
                             title,
-                            content,
+                            body,
                             archived: false,
                             createdAt: showFormattedDate(Date())
                         },
