@@ -14,7 +14,6 @@ The project utilizes Vite to for the usage of React.
 - Archive / Unarchive Notes
 - Delete Notes
 
-
 ## Badges
 
 [![HTML5](https://img.shields.io/badge/-HTML5-black?style=for-the-badge&logo=html5&logoColor=orange)](https://github.com/evelyn-zhan?tab=repositories&language=html)
@@ -24,6 +23,7 @@ The project utilizes Vite to for the usage of React.
 [![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=for-the-badge&logo=javascript)](https://github.com/evelyn-zhan?tab=repositories&language=javascript)
 
 [![React](https://img.shields.io/badge/-React-black?style=for-the-badge&logo=react)](https://github.com/evelyn-zhan?tab=repositories&language=javascript)
+
 ## ⚙️ Run Locally
 
 Clone the project
@@ -49,4 +49,3 @@ Start the server
 ```bash
   npm run dev
 ```
-
