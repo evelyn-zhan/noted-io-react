@@ -1,8 +1,52 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 📒 noted.io - React Notes App
 
-Currently, two official plugins are available:
+A note taking app created with React.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is made as the final project of "Learn to Build a Web App with React" course in Dicoding Indonesia.
+
+The project utilizes Vite to for the usage of React.
+
+## ⭐ Features
+
+- Add Notes
+- Search Notes
+- Archive / Unarchive Notes
+- Delete Notes
+
+
+## Badges
+
+[![HTML5](https://img.shields.io/badge/-HTML5-black?style=for-the-badge&logo=html5&logoColor=orange)](https://github.com/evelyn-zhan?tab=repositories&language=html)
+
+[![CSS3](https://img.shields.io/badge/-CSS3-black?style=for-the-badge&logo=css3&logoColor=blue)](https://github.com/evelyn-zhan?tab=repositories&language=css)
+
+[![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=for-the-badge&logo=javascript)](https://github.com/evelyn-zhan?tab=repositories&language=javascript)
+
+[![React](https://img.shields.io/badge/-React-black?style=for-the-badge&logo=react)](https://github.com/evelyn-zhan?tab=repositories&language=javascript)
+## ⚙️ Run Locally
+
+Clone the project
+
+```bash
+  git clone https://link-to-project
+```
+
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run dev
+```
+
