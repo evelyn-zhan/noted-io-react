@@ -4,14 +4,14 @@ A note taking app created with React.
 
 This project is made as the final project of "Learn to Build a Web App with React" course in Dicoding Indonesia.
 
-The project utilizes Vite to for the usage of React.
+The project utilizes Vite for the usage of React.
 
 ## ⭐ Features
 
-- Add Notes
-- Search Notes
-- Archive / Unarchive Notes
-- Delete Notes
+- Add Notes ✅
+- Search Notes ✅
+- Archive / Unarchive Notes ✅
+- Delete Notes ✅
 
 ## 💻 Tech Stacks
 
