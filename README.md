@@ -25,13 +25,13 @@ The project utilizes Vite for the usage of React.
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/evelyn-zhan/noted-io-react.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd noted-io-react
 ```
 
 Install dependencies
