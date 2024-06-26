@@ -1,11 +1,11 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 class AddNote extends React.Component {
     constructor(props) {
         super(props)
 
         this.state = {
-            id: '',
             title: '',
             body: '',
             limit: 50
@@ -40,8 +40,7 @@ class AddNote extends React.Component {
 
     onSubmitHandler(event) {
         event.preventDefault()
-        this.props.addNote(this.state)
-        
+        this.props.addNote(this.state.title, this.state.body)
         this.setState(() => {
             return {
                 title: '',
@@ -89,3 +88,7 @@ class AddNote extends React.Component {
 }
 
 export default AddNote
+
+AddNote.propTypes = {
+    addNote: PropTypes.func.isRequired
+}

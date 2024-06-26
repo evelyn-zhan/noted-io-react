@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 import ArchivedItem from './ArchivedItem.jsx'
 
@@ -32,3 +33,9 @@ function ArchivedList({ archivedNotes, onUnarchive, onDelete }) {
 }
 
 export default ArchivedList
+
+ArchivedList.propTypes = {
+    archivedNotes: PropTypes.array.isRequired,
+    onUnarchive: PropTypes.func.isRequired,
+    onDelete: PropTypes.func.isRequired
+}

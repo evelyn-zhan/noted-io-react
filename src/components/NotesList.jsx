@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 import NoteItem from './NoteItem.jsx'
 
@@ -32,3 +33,9 @@ function NotesList({ notes, onArchive, onDelete }) {
 }
 
 export default NotesList
+
+NotesList.propTypes = {
+    notes: PropTypes.array.isRequired,
+    onArchive: PropTypes.func.isRequired,
+    onDelete: PropTypes.func.isRequired
+}
