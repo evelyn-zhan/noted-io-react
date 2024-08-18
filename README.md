@@ -2,7 +2,7 @@
 
 A note taking app created with React.
 
-This project is made as the final project of "Learn to Build a Web App with React" course in Dicoding Indonesia.
+This project is made as the final project of "Learn to Build Web App with React" course in Dicoding Indonesia.
 
 The project utilizes Vite for the usage of React.
 
@@ -15,10 +15,10 @@ The project utilizes Vite for the usage of React.
 
 ## 💻 Tech Stacks
 
-[![HTML5](https://img.shields.io/badge/-HTML5-black?style=for-the-badge&logo=html5&logoColor=orange)](https://github.com/evelyn-zhan?tab=repositories&language=html)
+[![HTML5](https://img.shields.io/badge/-HTML5-black?style=for-the-badge&logo=html5)](https://github.com/evelyn-zhan?tab=repositories&language=html)
 [![CSS3](https://img.shields.io/badge/-CSS3-black?style=for-the-badge&logo=css3&logoColor=blue)](https://github.com/evelyn-zhan?tab=repositories&language=css)
 [![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=for-the-badge&logo=javascript)](https://github.com/evelyn-zhan?tab=repositories&language=javascript)
-[![React](https://img.shields.io/badge/-React-black?style=for-the-badge&logo=react)](https://github.com/evelyn-zhan?tab=repositories&language=javascript)
+[![React](https://img.shields.io/badge/-ReactJS-black?style=for-the-badge&logo=react)](https://github.com/evelyn-zhan?tab=repositories&language=javascript)
 
 ## ⚙️ Run Locally
 
