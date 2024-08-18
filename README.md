@@ -1,10 +1,8 @@
 # 📝 noted.io - React Notes App
 
-A note taking app created with React.
-
-This project is made as the final project of "Learn to Build Web App with React" course in Dicoding Indonesia.
-
-The project utilizes Vite for the usage of React.
+A note taking app built with **React.js**.\
+This is a React capstone project to pass the course of **Dicoding Indonesia: Learn to Build Web App with React**.\
+The project utilizes **Vite** for the usage of **React**.
 
 ## ⭐ Features
 
