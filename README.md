@@ -43,3 +43,7 @@ Start the server
 ```bash
   npm run dev
 ```
+
+##
+
+&copy; Evelyn 2024.
