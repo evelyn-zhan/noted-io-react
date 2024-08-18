@@ -13,7 +13,7 @@ The project utilizes Vite for the usage of React.
 - Archive / Unarchive Notes ✅
 - Delete Notes ✅
 
-## 💻 Tech Stack
+## 💻 Technologies
 
 [![HTML5](https://img.shields.io/badge/-HTML5-black?style=for-the-badge&logo=html5)](https://github.com/evelyn-zhan?tab=repositories&language=html)
 [![CSS3](https://img.shields.io/badge/-CSS3-black?style=for-the-badge&logo=css3&logoColor=blue)](https://github.com/evelyn-zhan?tab=repositories&language=css)
