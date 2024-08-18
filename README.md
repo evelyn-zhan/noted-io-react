@@ -1,4 +1,4 @@
-# 📒 noted.io - React Notes App
+# 📝 noted.io - React Notes App
 
 A note taking app created with React.
 
